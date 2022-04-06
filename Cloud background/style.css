@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url("https://images.unsplash.com/photo-1550951298-5c7b95a66bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHNlYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
